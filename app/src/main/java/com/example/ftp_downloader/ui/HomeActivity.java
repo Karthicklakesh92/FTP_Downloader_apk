@@ -96,7 +96,7 @@ public class HomeActivity extends AppCompatActivity {
                     // Permission granted, proceed with the installation
                     installApk();
                 } else {
-                    Toast.makeText(this, "Permission denied to install APK.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Permission denied to install APK", Toast.LENGTH_SHORT).show();
                 }
             }
         }

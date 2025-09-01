@@ -62,23 +62,23 @@ public class ActivityFTPServerSettings extends AppCompatActivity {
                 String file = file_nameEditText.getText().toString().trim();
 
                 if (ip.isEmpty()) {
-                    toast("Enter valid server ip.");
+                    toast("Enter valid server ip");
                     return;
                 }
                 if (user.isEmpty()) {
-                    toast("Enter valid user id.");
+                    toast("Enter valid user id");
                     return;
                 }
                 if (pwd.isEmpty()) {
-                    toast("Enter valid password.");
+                    toast("Enter valid password");
                     return;
                 }
                 if (path.isEmpty()) {
-                    toast("Enter valid download path.");
+                    toast("Enter valid download path");
                     return;
                 }
                 if (file.isEmpty()) {
-                    toast("Enter valid file name.");
+                    toast("Enter valid file name");
                     return;
                 }
                 creds.setServerIp(ip);
